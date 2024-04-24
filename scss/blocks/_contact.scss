@@ -1,0 +1,173 @@
+.contact-container {
+    max-width: 1240px;
+    box-sizing: content-box;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+#contact {
+    padding-bottom: 46px;
+    padding-top: 130px;
+
+    .contact-container {
+        h2 {
+            color: #363738;
+            font-family: "Exo 2";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 125%;
+            /* 60px */
+            margin-bottom: 94px;
+        }
+
+        .contact-wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .contact-left {
+                div {
+                    margin-bottom: 44px;
+                    display: flex;
+                    gap: 35px;
+                    align-items: center;
+
+                    div {
+                        margin-bottom: 0;
+                        display: block;
+
+                        p {
+                            color: #6B6B6C;
+                            font-family: PT Sans;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%;
+                            /* 21px */
+                            margin-bottom: 8px;
+                        }
+
+                        h4 {
+                            color: #363738;
+                            font-family: "Exo 2";
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+
+            .contact-left h5 {
+                font-family: "Exo 2";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                text-align: left;
+                color: #363738;
+            }
+
+            .contact-right {
+                max-width: 794px;
+                padding: 40px 72px 56px 48px;
+                border-radius: 5px;
+                background: #F9F9FB;
+
+                div {
+                    border-bottom: 1px solid #E9EAF2;
+                    display: flex;
+                    padding-bottom: 2px;
+                    margin-bottom: 32px;
+                    gap: 56px;
+
+                    p:first-child {
+                        max-width: 175px;
+                        color: #6B6B6C;
+                        font-family: PT Sans;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 125%;
+                    }
+
+                    p:last-child {
+                        color: #363738;
+                        font-family: "Exo 2";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 125%;
+                        max-width: 443px;
+                        flex-shrink: 0;
+                    }
+                }
+
+                div:nth-child(4) {
+                    margin-bottom: 15px;
+                }
+
+                div:nth-child(5) {
+                    margin-bottom: 0px;
+                    border: none;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .contact-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 39px;
+        box-sizing: content-box;
+
+    }
+
+    .contact-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-right p {
+        font-family: "Exo 2";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 16px;
+
+    }
+}
+
+
+@media only screen and (max-width: 677px) {
+    .contact-container>h2 {
+        display: none;
+    }
+
+    .contact-container {
+        max-width: 552px;
+        padding: 0 16px;
+
+    }
+
+    .contact-right div {
+        flex-direction: column;
+        gap: 0 14px;
+        // margin-bottom: 14px;
+    }
+
+    .contact-right p {
+        font-family: "Exo 2";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 16px;
+
+    }
+
+}

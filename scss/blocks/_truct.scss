@@ -11,7 +11,6 @@
     background-image: url("../../images/truct.png");
     background-repeat: no-repeat;
     width: 100%;
-    // background-position: c;
     background-size: cover;
     overflow: hidden;
 
@@ -20,7 +19,6 @@
 .truct-container {
     max-width: 1240px;
     margin: 0 auto;
-    // padding: 0 20px;
     box-sizing: content-box;
 
 
@@ -89,7 +87,7 @@
         background-color: #0B7572;
         max-width: 600px;
         height: 383px;
-       
+
     }
 
     .truct-wrapper>h1 {
@@ -180,21 +178,23 @@
         padding-top: 0px;
         margin-left: 0px;
         max-width: 344px;
-font-size: 28px;
-font-weight: 600;
-line-height: 35px;
-text-align: left;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: left;
 
         color: rgb(0, 0, 0);
-    
+
     }
-    .truct-wrapper{
-    background-color: white;
-    clip-path: polygon(100% 0, 100% 57%, 100% 100%, 0 100%, 0 0);
-    height: 100%;
-    padding: 0 16px;
+
+    .truct-wrapper {
+        background-color: white;
+        clip-path: polygon(100% 0, 100% 57%, 100% 100%, 0 100%, 0 0);
+        height: 100%;
+        padding: 0 16px;
+    }
 }
-}
+
 @media only screen and (max-width: 552px) {
     .truct-information {
         display: flex;
@@ -209,9 +209,11 @@ text-align: left;
         gap: 38px;
         margin-top: 48px;
     }
-    .truct-wrapper{
+
+    .truct-wrapper {
         padding: 0px;
     }
+
     .info-wrapper {
         max-width: 552px;
     }
@@ -223,6 +225,7 @@ text-align: left;
         gap: 0 16px;
         justify-content: space-between;
     }
+
     .info-wrapper>p {
         font-family: "Exo 2";
         font-size: 18px;
@@ -251,6 +254,7 @@ text-align: left;
     .truct {
         padding: 0 15px;
     }
+
     .truct-background {
         background-image: none;
         padding: 0px;
